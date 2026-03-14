@@ -98,4 +98,4 @@ code/
 ---
 
 ## Reference
-See `EHR_Transfer_Learning.pdf` for full details.
+See `CDR_detection_via_TL_with_data_augmentation.pdf` for full details.
