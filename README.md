@@ -42,9 +42,9 @@ code/
 ├── EDA.ipynb                         # Exploratory Data Analysis on cohort data
 ├── cohortselection.ipynb             # Filter cohort by existence in MIMIC-CXR
 ├── cxrretrieval.ipynb                # Selecting 1 CXR for each patient
-├── SMOTE+XGB.ipynb        
-├── Model_1.ipynb
-├── Model_2.ipynb                     
+├── SMOTE+XGB.ipynb                   # Apply Synthetic Minority Over-sampling Technique (SMOTE)
+├── Model_1.ipynb                     # Train XGBoost model
+├── Model_2.ipynb                     # Train Random Over-Sampling (ROS) + XGBClassifier  
 └── finalisedcohortdata.ipynb         # Feature extraction on MIMIC-IV, finalising data 
 
 ```
