@@ -100,19 +100,17 @@ GPU is not required.
 There are two ways to run the notebooks: on Google Colab or on a local machine.
 
 ### Running on Colab (Recommended)
-
-This is the recommended option. Some plot hyperlinks may work best on Colab.
-
-1. Upload the `.ipynb` notebook files to Google Drive.
-2. Open them with Google Colab.
-3. If package version incompatibilities occur, add the following cell at the beginning of the notebook and run it:
+This is the recommended method. Hyperlinks that make reference to plots will only work on Colab!
+Install [Google Colaboratory](https://colab.research.google.com/) on your [Google Drive](https://drive.google.com/drive/u/0/).
+Upload your `.ipynb` notebook file to Google Drive. The notebook should automatically open on Colab.
+Note: In case of any incompatibilities due to Colab changing package versions, add the following code cell to the start of your notebook and run it:
 
 ```python
 !wget https://github.com/clemence-mottez/mimic_iv/raw/main/requirements.txt
 !pip install -r requirements.txt
 ```
 Running on local
-In most cases, the notebook can be run locally by just installing the required package versions with the following command (requirements.txt is assumed to be in the same directory as your notebook):
+In most cases, the notebook can be run locally by just installing the required package versions with the following command (`requirements.txt` is assumed to be in the same directory as your notebook):
 ```bash
 pip install -r requirements.txt
 ```
@@ -131,9 +129,9 @@ Processor   : x86_64
 CPU cores   : 2
 Architecture: 64bit
 ```
-Make sure to do removal/add exception handler for any line in the form of from google.colab import ...!
----
+Make sure to do removal/add exception handler for any line in the form of `from google.colab import ...`.
 
+---
 ## Authors
 - Trần Thành Trọng – SMOTE + XGBoost (Model 1)
 - Bùi Đăng Khoa – ROS + XGBClassifier (Model 2)
