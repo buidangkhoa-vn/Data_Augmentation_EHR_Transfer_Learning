@@ -36,7 +36,18 @@ All users must comply with the data use agreements and ethical guidelines define
 
 ---
 
-## Pipeline (Baseline – Instructor)
+## Repository Structure
+```text
+code/
+├── EDA.ipynb                         # Exploratory Data Analysis on cohort data
+├── cohortselection.ipynb             # Filter cohort by existence in MIMIC-CXR
+├── cxrretrieval.ipynb                # Selecting 1 CXR for each patient
+├── SMOTE+XGB.ipynb        
+├── Model_1.ipynb
+├── Model_2.ipynb                     
+└── finalisedcohortdata.ipynb         # Feature extraction on MIMIC-IV, finalising data 
+
+```
 - Cohort selection & EDA  
 - CXR feature extraction (18 features)
 - EHR feature extraction (12 features)
@@ -74,20 +85,7 @@ Notebooks:
 
 Metrics: Accuracy, Precision, Recall, F1-score
 
----
 
-## Repository Structure
-```text
-code/
-├── EDA.ipynb                         # Exploratory Data Analysis on cohort data
-├── cohortselection.ipynb             # Filter cohort by existence in MIMIC-CXR
-├── cxrretrieval.ipynb                # Selecting 1 CXR for each patient
-├── SMOTE+XGB.ipynb        
-├── Model_1.ipynb
-├── Model_2.ipynb                     
-└── finalisedcohortdata.ipynb         # Feature extraction on MIMIC-IV, finalising data 
-
-```
 ---
 ## Requirements
 
