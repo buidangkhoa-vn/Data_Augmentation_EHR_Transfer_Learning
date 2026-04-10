@@ -48,20 +48,13 @@ code/
 └── finalisedcohortdata.ipynb         # Feature extraction on MIMIC-IV, finalising data 
 
 ```
+Key components:
 - Cohort selection & EDA  
 - CXR feature extraction (18 features)
 - EHR feature extraction (12 features)
 - Disease labels from ICD codes (8 CRDs)
 
-Notebooks:
-- `EDA.ipynb`
-- `cohortselection.ipynb`
-- `cxrretrieval.ipynb`
-- `finalisedcohortdata.ipynb`
-
----
-
-## Data Augmentation
+## Models
 
 ### Model 1 – Synthetic Minority Over-sampling Technique (SMOTE) + XGBoost  
 **Contributor:** Trần Thành Trọng  
