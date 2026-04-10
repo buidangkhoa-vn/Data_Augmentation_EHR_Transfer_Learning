@@ -118,6 +118,7 @@ pip install -r requirements.txt
 ```
 To replicate Colab’s operating system on local computer, this is the specifications of the Colab environment as of October 2023:
 
+```text
 Python implementation: CPython
 Python version       : 3.10.12
 IPython version      : 7.34.0
@@ -129,6 +130,7 @@ Machine     : x86_64
 Processor   : x86_64
 CPU cores   : 2
 Architecture: 64bit
+```
 Make sure to do removal/add exception handler for any line in the form of from google.colab import ...!
 ---
 
