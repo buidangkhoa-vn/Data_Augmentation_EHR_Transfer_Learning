@@ -100,9 +100,10 @@ GPU is not required.
 There are two ways to run the notebooks: on Google Colab or on a local machine.
 
 ### Running on Colab (Recommended)
-This is the recommended method. Hyperlinks that make reference to plots will only work on Colab!
-Install [Google Colaboratory](https://colab.research.google.com/) on your [Google Drive](https://drive.google.com/drive/u/0/).
-Upload your `.ipynb` notebook file to Google Drive. The notebook should automatically open on Colab.
+This is the recommended method. **Hyperlinks that make reference to plots will only work on Colab!**
+
+1. Install [Google Colaboratory](https://colab.research.google.com/) on your [Google Drive](https://drive.google.com/drive/u/0/).
+2. Upload your `.ipynb` notebook file to Google Drive. The notebook should automatically open on Colab.
 
 **Note**: In case of any incompatibilities due to Colab changing package versions, add the following code cell to the start of your notebook and run it:
 
