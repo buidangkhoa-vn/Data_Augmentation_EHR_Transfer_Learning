@@ -6,13 +6,11 @@ The work focuses on transfer learning and multimodal learning under severe class
 
 ## Overview
 
-Transfer learning with DenseNet for chest X-ray feature extraction
+This project presents a multimodal approach for chronic respiratory disease (CRD) prediction by combining chest X-ray (CXR) imaging and electronic health record (EHR) data. CXR features are extracted using a DenseNet model with transfer learning, allowing effective representation learning from medical images.
 
-Multimodal learning combining CXR features and structured EHR data
+To improve prediction performance, the extracted image features are integrated with structured clinical data from EHR. The model also addresses the challenge of severe class imbalance—especially for rare respiratory diseases—by applying data augmentation techniques such as Synthetic Minority Over-sampling Technique  (SMOTE) and Random Over-Sampling (ROS).
 
-Emphasis on class imbalance handling for rare respiratory diseases
-
-Evaluation on multiple CRD prediction tasks
+The proposed framework is evaluated across multiple CRD prediction tasks, demonstrating its effectiveness in handling multimodal data and improving detection of minority classes.
 
 ---
 
