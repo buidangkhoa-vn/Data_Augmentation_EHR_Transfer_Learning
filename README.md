@@ -110,6 +110,7 @@ This is the recommended method. **Hyperlinks that make reference to plots will o
 !pip install -r requirements.txt
 ```
 **Running on local**
+
 In most cases, the notebook can be run locally by just installing the required package versions with the following command (`requirements.txt` is assumed to be in the same directory as your notebook):
 ```bash
 pip install -r requirements.txt
