@@ -13,6 +13,7 @@ Multimodal learning combining CXR features and structured EHR data
 Emphasis on class imbalance handling for rare respiratory diseases
 
 Evaluation on multiple CRD prediction tasks
+
 ---
 
 ## Data Sources and Access Notice
@@ -32,6 +33,7 @@ Access to MIMIC-IV and MIMIC-CXR requires:
   [PhysioNet account](https://physionet.org/)
 
 All users must comply with the data use agreements and ethical guidelines defined by PhysioNet.
+
 ---
 
 ## Pipeline (Baseline – Instructor)
