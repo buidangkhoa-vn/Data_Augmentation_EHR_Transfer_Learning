@@ -77,15 +77,52 @@ Metrics: Accuracy, Precision, Recall, F1-score
 ## Repository Structure
 ```text
 code/
-├── EDA.ipynb
-├── cohortselection.ipynb
-├── cxrretrieval.ipynb
-├── SMOTE+XGB.ipynb
+├── EDA.ipynb                         # Exploratory Data Analysis on cohort data
+├── cohortselection.ipynb             # Filter cohort by existence in MIMIC-CXR
+├── cxrretrieval.ipynb                # Selecting 1 CXR for each patient
+├── SMOTE+XGB.ipynb        
 ├── Model_1.ipynb
-├── Model_2.ipynb
-└── finalisedcohortdata.ipynb
+├── Model_2.ipynb                     
+└── finalisedcohortdata.ipynb         # Feature extraction on MIMIC-IV, finalising data 
 
 ```
+---
+Requirements
+This notebook is run on Python 3.10.12, with packages specified in requirements.txt.
+
+The notebook was originally executed on Google Colab.
+Minimum 4GB of memory required.
+GPU resource is not required.
+Environment Setup
+There are 2 ways of running the notebook: using Colab and running on local.
+
+Running on Colab (Recommended)
+This is the recommended method. Hyperlinks that make reference to plots will only work on Colab!
+
+Install Google Colaboratory on your Google Drive.
+Upload your .ipynb notebook file to Google Drive. The notebook should automatically open on Colab.
+Note: In case of any incompatibilities due to Colab changing package versions, add the following code cell to the start of your notebook and run it:
+
+!wget https://github.com/clemence-mottez/mimic_iv/raw/main/requirements.txt
+!pip install requirements.txt
+Running on local
+In most cases, the notebook can be run locally by just installing the required package versions with the following command (requirements.txt is assumed to be in the same directory as your notebook):
+
+pip install requirements.txt
+To replicate Colab’s operating system on local computer, this is the specifications of the Colab environment as of October 2023:
+
+Python implementation: CPython
+Python version       : 3.10.12
+IPython version      : 7.34.0
+
+Compiler    : GCC 11.4.0
+OS          : Linux
+Release     : 5.15.120+
+Machine     : x86_64
+Processor   : x86_64
+CPU cores   : 2
+Architecture: 64bit
+Make sure to do removal/add exception handler for any line in the form of from google.colab import ...!
 ---
 
 ## Authors
