@@ -87,28 +87,35 @@ code/
 
 ```
 ---
-Requirements
-This notebook is run on Python 3.10.12, with packages specified in requirements.txt.
+## Requirements
 
-The notebook was originally executed on Google Colab.
-Minimum 4GB of memory required.
-GPU resource is not required.
-Environment Setup
-There are 2 ways of running the notebook: using Colab and running on local.
+This project was developed with Python 3.10.12 and the dependencies listed in `requirements.txt`.
 
-Running on Colab (Recommended)
-This is the recommended method. Hyperlinks that make reference to plots will only work on Colab!
+The notebooks were originally executed on Google Colab.
+A minimum of 4 GB RAM is recommended.
+GPU is not required.
 
-Install Google Colaboratory on your Google Drive.
-Upload your .ipynb notebook file to Google Drive. The notebook should automatically open on Colab.
-Note: In case of any incompatibilities due to Colab changing package versions, add the following code cell to the start of your notebook and run it:
+## Environment Setup
 
+There are two ways to run the notebooks: on Google Colab or on a local machine.
+
+### Running on Colab (Recommended)
+
+This is the recommended option. Some plot hyperlinks may work best on Colab.
+
+1. Upload the `.ipynb` notebook files to Google Drive.
+2. Open them with Google Colab.
+3. If package version incompatibilities occur, add the following cell at the beginning of the notebook and run it:
+
+```python
 !wget https://github.com/clemence-mottez/mimic_iv/raw/main/requirements.txt
-!pip install requirements.txt
+!pip install -r requirements.txt
+```
 Running on local
 In most cases, the notebook can be run locally by just installing the required package versions with the following command (requirements.txt is assumed to be in the same directory as your notebook):
-
-pip install requirements.txt
+```bash
+pip install -r requirements.txt
+```
 To replicate Colab’s operating system on local computer, this is the specifications of the Colab environment as of October 2023:
 
 Python implementation: CPython
